@@ -1,0 +1,16 @@
+create database fracture;
+use fracture;
+
+create table register(username varchar(50) primary key,
+password varchar(250),
+contact_no varchar(20),
+email varchar(50), 
+address varchar(155),
+user_role varchar(20));
+
+create table patient_data(username varchar(50),
+xray_file varchar(200),
+detection_result varchar(230),
+upload_date varchar(30),
+permit_doctor varchar(40));
+
